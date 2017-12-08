@@ -6,6 +6,7 @@ CREATE TABLE sign (
     created_time TIMESTAMP WITH TIME ZONE,
     PRIMARY KEY(id)
 );
+ALTER TABLE sign OWNER TO dev;
 
 CREATE TABLE user (
     id VARCHAR(36) NOT NULL,
